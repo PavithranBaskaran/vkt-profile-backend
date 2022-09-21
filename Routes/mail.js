@@ -20,7 +20,7 @@ router.post("/message", async (request, response) => {
       <h1>Name</h1> : <p>${request.body.name}</p>
       <h1>Company Name</h1> : <p>${request.body.companyName}</p>
       <h1>position</h1> : <p>${request.body.position}</p>
-      <h1>Email ID</h1> : <p>${request.body.email}</p>
+      <h1>Email ID</h1> : <p>${request.body.mailid}</p>
       <h1>Contact No</h1> : <p>${request.body.contactNo}</p>
       <h1>Address</h1> : <p>${request.body.address}</p>
       <h1>Enquiry</h1> : <p>${request.body.message}</p>
